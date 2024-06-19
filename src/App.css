@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #D8EFD3;
+}
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Adjust height as needed */
+}
+
+.counterBox {
+  text-align: center; /* Center content inside counterBox */
+  background-color: #f0f0f0;
+  padding: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button {
+  background-color: #55AD9B;
+  font-size: 2rem;
+  height: 60px;
+  width: 60px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: #ffffff;
+  text-align: center; /* Ensure text alignment */
+}
+button:hover{
+  background-color: #95D2B3;
+  transition: all linear .3s;
+}
